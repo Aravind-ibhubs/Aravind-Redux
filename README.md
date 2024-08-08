@@ -71,7 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Redux
 
-npm install redux
-npm install react-redux
-npm install redux-thunk
-npm install redux-devtools-extension
+### Packages to Install for redux
+1. `npm install redux`
+2. `npm install react-redux`
+3. `npm install redux-thunk`
+4. `npm install redux-devtools-extension`
+
+### Packages to install for redux - toolkit
+1. `npm install @reduxjs/toolkit react-redux`
+
+[Redux toolkit Learning] (https://redux-toolkit.js.org/tutorials/quick-start)
