@@ -1,0 +1,10 @@
+.componentBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+  }
+
+.onlyLeft {
+  align-self: left;
+}

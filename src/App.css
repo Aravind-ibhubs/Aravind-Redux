@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.componentBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3%;
+}
