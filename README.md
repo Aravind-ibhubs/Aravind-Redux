@@ -80,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Packages to install for redux - toolkit
 1. `npm install @reduxjs/toolkit react-redux`
 
-[Redux toolkit Learning] (https://redux-toolkit.js.org/tutorials/quick-start)
+[Redux toolkit Learning](https://redux-toolkit.js.org/tutorials/quick-start)
