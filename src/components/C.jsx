@@ -1,5 +1,5 @@
 import F from './F';
-import G from  './G';
+import Header from './Header/Header';
 import "./style.css";
 
 const C = function({info}) {
@@ -9,7 +9,7 @@ const C = function({info}) {
             <hr />
             <div className='componentBlock'>
                 <F info={info} />
-                <G info={info} />
+                <Header info={info} />
             </div>
         </div>
     )
