@@ -3,7 +3,8 @@ import './App.css';
 import Header from "./components/Header/Header";
 import { Routes,Route } from "react-router-dom";
 import Dashboard from "./components/Dasboard/Dashboard";
-import NotFound from "./components/Not Found/NotFound";
+import NotFound from "./components/NotFound/NotFound";
+import PostProduct from "./components/Product/PostProduct";
 
 export const UserName = createContext("Harry potter");
 export const SeriesNumber = createContext();
@@ -25,6 +26,7 @@ function App() {
       <Header />  
       <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/product" element={<PostProduct />} />
           <Route path="*" element={<NotFound />} />
         </Routes>  
     </>
